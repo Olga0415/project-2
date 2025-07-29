@@ -1,0 +1,159 @@
+body {
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.index-page section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding: 1em;
+}
+
+.index-page img {
+  width: 90%;
+  max-width: 300px;
+}
+
+
+.resume-page {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.resume-page fieldset {
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #fafafa;
+  margin-top: 2rem;
+}
+
+.resume-page legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.resume-page h1 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.resume-page h2 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.resume-page ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.resume-page p {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+
+.prices-page .description {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.price-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.price-list .item {
+  background-color: #fafafa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  width: 200px;
+  text-align: center;
+}
+
+.price-list h2 {
+  margin-bottom: 0.5rem;
+}
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
